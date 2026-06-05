@@ -1,0 +1,152 @@
+# SOURCE TXT : Système CRM - Fichier clients (séparateur |)
+id_client|nom|prenom|adresse|ville|province|pays|personne_ressource|telephone|email|segment
+1|Richard|Camille|148 avenue Foch|Lille|Hauts-de-France|France|David Durand|0351177222|richard.camille@entreprise1.fr|TPE
+2|Fontaine|Emma|61 allée des Roses|Montpellier|Occitanie|France|Emma Martin|0150000149|fontaine.emma@entreprise2.fr|TPE
+3|Petit|Antoine|146 rue du Commerce|Montpellier|Occitanie|France|Nicolas Roux|0216962963|petit.antoine@entreprise3.fr|Grand Compte
+4|Laurent|David|612 allée des Roses|Bordeaux|Nouvelle-Aquitaine|France|Sarah Fournier|0961680358|laurent.david@entreprise4.fr|PME
+5|Michel|Marie|326 rue du Commerce|Clermont-Ferrand|Auvergne-Rhône-Alpes|France|Clémence Durand|0813879756|michel.marie@entreprise5.fr|TPE
+6|Lambert|Julie|936 rue de la Paix|Lille|Hauts-de-France|France|Léa Bonnet|0243059986|lambert.julie@entreprise6.fr|Education
+7|Lambert|Manon|129 boulevard Haussmann|Le Havre|Normandie|France|Clémence Bertrand|0295335496|lambert.manon@entreprise7.fr|Education
+8|Simon|Manon|992 avenue Foch|Grenoble|Auvergne-Rhône-Alpes|France|Léa Richard|0482146810|simon.manon@entreprise8.fr|TPE
+9|Boyer|Léa|463 rue de la Paix|Paris|Île-de-France|France|Olivier Bertrand|0597652074|boyer.léa@entreprise9.fr|Grand Compte
+10|Martin|Marie|956 rue du Commerce|Lille|Hauts-de-France|France|Chloé Michel|0757166514|martin.marie@entreprise10.fr|Santé
+11|Simon|François|861 allée des Roses|Rennes|Bretagne|France|Marie Richard|0985575530|simon.françois@entreprise11.fr|PME
+12|Garcia|Pierre|405 impasse du Moulin|Toulouse|Occitanie|France|Olivier Robert|0947508257|garcia.pierre@entreprise12.fr|TPE
+13|Simon|Chloé|517 boulevard Haussmann|Montpellier|Occitanie|France|Romain Michel|0846643203|simon.chloé@entreprise13.fr|Grand Compte
+14|Fontaine|Antoine|350 avenue Foch|Angers|Pays de la Loire|France|Chloé Moreau|0127948365|fontaine.antoine@entreprise14.fr|Santé
+15|Boyer|Jean|624 rue du Commerce|Paris|Île-de-France|France|Christophe Martin|0365453803|boyer.jean@entreprise15.fr|Education
+16|Mercier|Mathieu|721 rue du Commerce|Toulon|Provence-Alpes-Côte d''Azur|France|Léa Durand|0282296289|mercier.mathieu@entreprise16.fr|PME
+17|Mercier|Olivier|836 impasse du Moulin|Angers|Pays de la Loire|France|Alice Petit|0660516391|mercier.olivier@entreprise17.fr|Education
+18|Leroy|Maxime|182 impasse du Moulin|Paris|Île-de-France|France|Sophie Bertrand|0635902794|leroy.maxime@entreprise18.fr|TPE
+19|Martin|Julie|761 rue de la Paix|Lille|Hauts-de-France|France|Alice Boyer|0635704262|martin.julie@entreprise19.fr|PME
+20|Faure|Chloé|641 boulevard Haussmann|Bordeaux|Nouvelle-Aquitaine|France|Julie Morel|0614938681|faure.chloé@entreprise20.fr|Administration
+21|Morel|Christophe|721 impasse du Moulin|Reims|Grand Est|France|Thomas Martin|0495689443|morel.christophe@entreprise21.fr|TPE
+22|Petit|Pauline|285 allée des Roses|Saint-Etienne|Auvergne-Rhône-Alpes|France|Sarah Richard|0936007403|petit.pauline@entreprise22.fr|Santé
+23|Vincent|François|689 impasse du Moulin|Reims|Grand Est|France|François Richard|0288942114|vincent.françois@entreprise23.fr|Grand Compte
+24|Vincent|Pierre|131 boulevard Haussmann|Le Havre|Normandie|France|Pauline Laurent|0946819677|vincent.pierre@entreprise24.fr|Grand Compte
+25|Andre|Alice|24 impasse du Moulin|Clermont-Ferrand|Auvergne-Rhône-Alpes|France|Chloé Michel|0970924933|andre.alice@entreprise25.fr|PME
+26|David|Romain|690 impasse du Moulin|Lyon|Auvergne-Rhône-Alpes|France|Pauline Moreau|0764609958|david.romain@entreprise26.fr|Administration
+27|Petit|Alice|531 rue du Commerce|Nîmes|Occitanie|France|Laura Fournier|0140138350|petit.alice@entreprise27.fr|PME
+28|Michel|Inès|431 allée des Roses|Angers|Pays de la Loire|France|Antoine Martin|0736119862|michel.inès@entreprise28.fr|Administration
+29|Durand|Christophe|586 rue de la Paix|Bordeaux|Nouvelle-Aquitaine|France|Mathieu David|0243552306|durand.christophe@entreprise29.fr|Grand Compte
+30|Richard|Antoine|319 rue de la Paix|Toulouse|Occitanie|France|Jean Morel|0713224383|richard.antoine@entreprise30.fr|Education
+31|Lefevre|Romain|958 boulevard Haussmann|Lille|Hauts-de-France|France|Julie Petit|0841992031|lefevre.romain@entreprise31.fr|Administration
+32|Faure|Marie|842 boulevard Haussmann|Saint-Etienne|Auvergne-Rhône-Alpes|France|Manon Laurent|0290525899|faure.marie@entreprise32.fr|Education
+33|Bertrand|David|98 impasse du Moulin|Angers|Pays de la Loire|France|François Petit|0218145263|bertrand.david@entreprise33.fr|PME
+34|Roux|Antoine|912 impasse du Moulin|Marseille|Provence-Alpes-Côte d''Azur|France|Manon Robert|0169313284|roux.antoine@entreprise34.fr|PME
+35|Garcia|Chloé|642 rue du Commerce|Marseille|Provence-Alpes-Côte d''Azur|France|Sophie Fontaine|0185062345|garcia.chloé@entreprise35.fr|PME
+36|Garcia|Pauline|391 rue du Commerce|Toulouse|Occitanie|France|Chloé Muller|0741287760|garcia.pauline@entreprise36.fr|Education
+37|Lefevre|Alice|639 rue de la Paix|Angers|Pays de la Loire|France|Maxime Bertrand|0793243271|lefevre.alice@entreprise37.fr|Education
+38|Petit|Antoine|667 impasse du Moulin|Paris|Île-de-France|France|Julien Fournier|0688894973|petit.antoine@entreprise38.fr|Grand Compte
+39|Petit|Sophie|13 allée des Roses|Marseille|Provence-Alpes-Côte d''Azur|France|François Lefevre|0486935230|petit.sophie@entreprise39.fr|Grand Compte
+40|Lambert|Alexandre|263 boulevard Haussmann|Dijon|Bourgogne-Franche-Comté|France|Sarah Vincent|0834954217|lambert.alexandre@entreprise40.fr|Grand Compte
+41|Robert|Manon|46 rue de la Paix|Nice|Provence-Alpes-Côte d''Azur|France|Camille Bonnet|0778870570|robert.manon@entreprise41.fr|Santé
+42|Muller|Laura|319 allée des Roses|Clermont-Ferrand|Auvergne-Rhône-Alpes|France|David Robert|0373018412|muller.laura@entreprise42.fr|Administration
+43|Dupont|Antoine|299 boulevard Haussmann|Paris|Île-de-France|France|Alexandre Bonnet|0317693044|dupont.antoine@entreprise43.fr|Grand Compte
+44|Fournier|Olivier|856 allée des Roses|Lyon|Auvergne-Rhône-Alpes|France|Clémence Leroy|0436893461|fournier.olivier@entreprise44.fr|Santé
+45|Boyer|Thomas|805 rue de la Paix|Montpellier|Occitanie|France|Thomas Fontaine|0872733686|boyer.thomas@entreprise45.fr|Education
+46|Rousseau|Antoine|873 allée des Roses|Le Havre|Normandie|France|Antoine Dupont|0566196330|rousseau.antoine@entreprise46.fr|Administration
+47|Richard|Sophie|466 rue de la Paix|Nîmes|Occitanie|France|Julie Boyer|0195733862|richard.sophie@entreprise47.fr|Grand Compte
+48|Rousseau|Julie|478 allée des Roses|Strasbourg|Grand Est|France|Julie Morel|0660454028|rousseau.julie@entreprise48.fr|Grand Compte
+49|Roux|Emma|846 rue de la Paix|Grenoble|Auvergne-Rhône-Alpes|France|Jean Durand|0614028892|roux.emma@entreprise49.fr|Education
+50|Petit|Lucas|298 rue du Commerce|Strasbourg|Grand Est|France|Romain Bonnet|0615892805|petit.lucas@entreprise50.fr|PME
+51|Simon|Thomas|291 avenue Foch|Bordeaux|Nouvelle-Aquitaine|France|Christophe Michel|0355609531|simon.thomas@entreprise51.fr|Education
+52|Laurent|Emma|201 rue de la Paix|Nantes|Pays de la Loire|France|Olivier Michel|0212817734|laurent.emma@entreprise52.fr|Santé
+53|Robert|Maxime|671 rue de la Paix|Montpellier|Occitanie|France|Inès Simon|0571230621|robert.maxime@entreprise53.fr|Grand Compte
+54|Leroy|Manon|382 impasse du Moulin|Nantes|Pays de la Loire|France|Alexandre Lefevre|0718774822|leroy.manon@entreprise54.fr|PME
+55|Robert|Christophe|947 avenue Foch|Strasbourg|Grand Est|France|Thomas Girard|0760231696|robert.christophe@entreprise55.fr|Administration
+56|Dupont|Clémence|652 avenue Foch|Lyon|Auvergne-Rhône-Alpes|France|David Dupont|0481869344|dupont.clémence@entreprise56.fr|Administration
+57|Lefevre|Lucas|336 avenue Foch|Lyon|Auvergne-Rhône-Alpes|France|Romain Lefevre|0526972976|lefevre.lucas@entreprise57.fr|Education
+58|Bonnet|Christophe|501 avenue Foch|Marseille|Provence-Alpes-Côte d''Azur|France|Manon Morel|0232472549|bonnet.christophe@entreprise58.fr|Education
+59|Roux|David|904 impasse du Moulin|Saint-Etienne|Auvergne-Rhône-Alpes|France|Laura Morel|0972312899|roux.david@entreprise59.fr|Grand Compte
+60|Moreau|Mathieu|383 allée des Roses|Nîmes|Occitanie|France|Mathieu Morel|0846015375|moreau.mathieu@entreprise60.fr|Education
+61|Roux|Romain|944 allée des Roses|Lyon|Auvergne-Rhône-Alpes|France|Thomas Laurent|0470677159|roux.romain@entreprise61.fr|Grand Compte
+62|Roux|Thomas|314 rue du Commerce|Toulon|Provence-Alpes-Côte d''Azur|France|François Richard|0644162336|roux.thomas@entreprise62.fr|Education
+63|Durand|Lucas|770 rue de la Paix|Rennes|Bretagne|France|Julien Fournier|0640893911|durand.lucas@entreprise63.fr|Education
+64|Bernard|Julien|525 allée des Roses|Montpellier|Occitanie|France|Clémence Bertrand|0868049927|bernard.julien@entreprise64.fr|TPE
+65|Leroy|Manon|510 boulevard Haussmann|Lille|Hauts-de-France|France|Maxime Martin|0369282426|leroy.manon@entreprise65.fr|Grand Compte
+66|Michel|Romain|78 boulevard Haussmann|Marseille|Provence-Alpes-Côte d''Azur|France|Camille Faure|0978825641|michel.romain@entreprise66.fr|Education
+67|Lambert|Pierre|805 boulevard Haussmann|Bordeaux|Nouvelle-Aquitaine|France|Sophie Petit|0258350177|lambert.pierre@entreprise67.fr|PME
+68|Girard|Thomas|342 avenue Foch|Montpellier|Occitanie|France|Nicolas Garcia|0535587594|girard.thomas@entreprise68.fr|Santé
+69|Dupont|Lucas|876 impasse du Moulin|Clermont-Ferrand|Auvergne-Rhône-Alpes|France|Inès Michel|0150194740|dupont.lucas@entreprise69.fr|Administration
+70|Faure|Laura|802 rue du Commerce|Toulon|Provence-Alpes-Côte d''Azur|France|Olivier Bonnet|0173351303|faure.laura@entreprise70.fr|Santé
+71|Fournier|David|975 avenue Foch|Toulon|Provence-Alpes-Côte d''Azur|France|Julie Laurent|0473678024|fournier.david@entreprise71.fr|Grand Compte
+72|Fournier|François|805 allée des Roses|Angers|Pays de la Loire|France|Lucie Faure|0855722553|fournier.françois@entreprise72.fr|PME
+73|Moreau|Pauline|193 rue du Commerce|Dijon|Bourgogne-Franche-Comté|France|Thomas Bertrand|0884953463|moreau.pauline@entreprise73.fr|PME
+74|Leroy|Lucas|592 avenue Foch|Rennes|Bretagne|France|Lucie Martin|0898429098|leroy.lucas@entreprise74.fr|Administration
+75|Moreau|Julie|430 rue du Commerce|Toulon|Provence-Alpes-Côte d''Azur|France|David Muller|0950216625|moreau.julie@entreprise75.fr|Administration
+76|Bonnet|Jean|582 rue de la Paix|Nice|Provence-Alpes-Côte d''Azur|France|Lucas Moreau|0761179711|bonnet.jean@entreprise76.fr|Grand Compte
+77|Roux|Pierre|548 rue du Commerce|Strasbourg|Grand Est|France|Sarah Petit|0686439010|roux.pierre@entreprise77.fr|TPE
+78|Lambert|Christophe|312 rue de la Paix|Nantes|Pays de la Loire|France|Sophie Fontaine|0933841913|lambert.christophe@entreprise78.fr|PME
+79|Faure|Mathieu|618 rue du Commerce|Paris|Île-de-France|France|Emma Simon|0261793831|faure.mathieu@entreprise79.fr|Administration
+80|Simon|Julie|299 impasse du Moulin|Saint-Etienne|Auvergne-Rhône-Alpes|France|Pierre Bertrand|0159479669|simon.julie@entreprise80.fr|Education
+81|Martin|Emma|335 rue du Commerce|Toulon|Provence-Alpes-Côte d''Azur|France|Emma Petit|0382001505|martin.emma@entreprise81.fr|TPE
+82|Morel|Lucie|71 rue du Commerce|Strasbourg|Grand Est|France|Lucas Andre|0451574904|morel.lucie@entreprise82.fr|TPE
+83|Faure|Mathieu|681 rue du Commerce|Nantes|Pays de la Loire|France|Chloé Bonnet|0588851835|faure.mathieu@entreprise83.fr|Grand Compte
+84|Fournier|Mathieu|702 rue du Commerce|Lille|Hauts-de-France|France|Thomas Martin|0369825080|fournier.mathieu@entreprise84.fr|PME
+85|Faure|Maxime|620 avenue Foch|Saint-Etienne|Auvergne-Rhône-Alpes|France|Antoine Boyer|0871767610|faure.maxime@entreprise85.fr|TPE
+86|Bonnet|Marie|755 rue de la Paix|Rennes|Bretagne|France|Romain Mercier|0856544270|bonnet.marie@entreprise86.fr|Santé
+87|Faure|Mathieu|812 boulevard Haussmann|Toulon|Provence-Alpes-Côte d''Azur|France|Chloé Faure|0365707438|faure.mathieu@entreprise87.fr|Grand Compte
+88|Richard|Christophe|633 impasse du Moulin|Dijon|Bourgogne-Franche-Comté|France|Julien Roux|0386318249|richard.christophe@entreprise88.fr|PME
+89|Roux|Mathieu|969 rue de la Paix|Bordeaux|Nouvelle-Aquitaine|France|Christophe Andre|0346745629|roux.mathieu@entreprise89.fr|Santé
+90|Girard|Camille|683 rue de la Paix|Strasbourg|Grand Est|France|Inès Morel|0784198767|girard.camille@entreprise90.fr|PME
+91|Leroy|Pierre|774 rue de la Paix|Saint-Etienne|Auvergne-Rhône-Alpes|France|David Muller|0665042162|leroy.pierre@entreprise91.fr|TPE
+92|Richard|Nicolas|213 allée des Roses|Lyon|Auvergne-Rhône-Alpes|France|Julien Martin|0295747226|richard.nicolas@entreprise92.fr|Santé
+93|Fontaine|Lucie|473 rue du Commerce|Montpellier|Occitanie|France|Lucie Roux|0463240727|fontaine.lucie@entreprise93.fr|PME
+94|Martin|Nicolas|118 impasse du Moulin|Nice|Provence-Alpes-Côte d''Azur|France|Antoine Fontaine|0875063283|martin.nicolas@entreprise94.fr|TPE
+95|Durand|Pierre|562 impasse du Moulin|Bordeaux|Nouvelle-Aquitaine|France|Mathieu Bertrand|0373188059|durand.pierre@entreprise95.fr|Administration
+96|Faure|Emma|175 rue de la Paix|Reims|Grand Est|France|Sophie Richard|0526663316|faure.emma@entreprise96.fr|Education
+97|Vincent|Maxime|173 rue de la Paix|Paris|Île-de-France|France|Alice Michel|0369144114|vincent.maxime@entreprise97.fr|Administration
+98|Richard|Thomas|732 rue de la Paix|Clermont-Ferrand|Auvergne-Rhône-Alpes|France|Thomas Bertrand|0195200126|richard.thomas@entreprise98.fr|Education
+99|Lambert|Alice|734 impasse du Moulin|Toulouse|Occitanie|France|Maxime Rousseau|0569590884|lambert.alice@entreprise99.fr|PME
+100|Dupont|Jean|50 rue du Commerce|Strasbourg|Grand Est|France|Inès Laurent|0642016340|dupont.jean@entreprise100.fr|Grand Compte
+101|Durand|Jean|432 rue de la Paix|Paris|Île-de-France|France|Antoine Faure|0499784876|durand.jean@entreprise101.fr|PME
+102|Laurent|Christophe|99 impasse du Moulin|Nantes|Pays de la Loire|France|Lucie Richard|0165791626|laurent.christophe@entreprise102.fr|Education
+103|Petit|Olivier|335 boulevard Haussmann|Clermont-Ferrand|Auvergne-Rhône-Alpes|France|Romain Simon|0482706099|petit.olivier@entreprise103.fr|TPE
+104|David|Sophie|238 avenue Foch|Toulouse|Occitanie|France|Laura Moreau|0312012537|david.sophie@entreprise104.fr|TPE
+105|Lambert|Antoine|13 rue du Commerce|Strasbourg|Grand Est|France|Julien Laurent|0298310124|lambert.antoine@entreprise105.fr|Administration
+106|Lambert|Chloé|378 rue de la Paix|Marseille|Provence-Alpes-Côte d''Azur|France|Christophe Simon|0750471241|lambert.chloé@entreprise106.fr|Education
+107|Morel|Sophie|730 allée des Roses|Le Havre|Normandie|France|Emma Michel|0290512805|morel.sophie@entreprise107.fr|Administration
+108|Lambert|Mathieu|398 impasse du Moulin|Nice|Provence-Alpes-Côte d''Azur|France|Antoine Richard|0699438746|lambert.mathieu@entreprise108.fr|TPE
+109|Durand|Antoine|19 allée des Roses|Le Havre|Normandie|France|Julien Roux|0995978796|durand.antoine@entreprise109.fr|Santé
+110|Laurent|Alexandre|602 impasse du Moulin|Paris|Île-de-France|France|Julie Martin|0251452961|laurent.alexandre@entreprise110.fr|Grand Compte
+111|Vincent|Clémence|776 avenue Foch|Reims|Grand Est|France|Pierre Bernard|0360267710|vincent.clémence@entreprise111.fr|TPE
+112|Garcia|Thomas|156 rue du Commerce|Strasbourg|Grand Est|France|Romain Bernard|0490272292|garcia.thomas@entreprise112.fr|TPE
+113|Vincent|Christophe|337 avenue Foch|Lille|Hauts-de-France|France|Antoine Lambert|0179910371|vincent.christophe@entreprise113.fr|TPE
+114|Lambert|Olivier|296 rue de la Paix|Bordeaux|Nouvelle-Aquitaine|France|Pauline Vincent|0656000229|lambert.olivier@entreprise114.fr|Grand Compte
+115|Simon|Léa|56 impasse du Moulin|Bordeaux|Nouvelle-Aquitaine|France|Manon Fontaine|0491612860|simon.léa@entreprise115.fr|TPE
+116|Fournier|Antoine|188 rue du Commerce|Paris|Île-de-France|France|Pierre Andre|0819393216|fournier.antoine@entreprise116.fr|Grand Compte
+117|Bernard|Romain|145 avenue Foch|Nice|Provence-Alpes-Côte d''Azur|France|Pierre Richard|0937430524|bernard.romain@entreprise117.fr|Grand Compte
+118|Fournier|Pierre|437 impasse du Moulin|Angers|Pays de la Loire|France|Camille Richard|0442873271|fournier.pierre@entreprise118.fr|TPE
+119|Richard|Chloé|255 boulevard Haussmann|Rennes|Bretagne|France|François Bertrand|0446488536|richard.chloé@entreprise119.fr|TPE
+120|Durand|Laura|408 rue du Commerce|Nantes|Pays de la Loire|France|Sarah Bertrand|0777819218|durand.laura@entreprise120.fr|Education
+121|Vincent|Clémence|779 avenue Foch|Nîmes|Occitanie|France|Jean Muller|0767364292|vincent.clémence@entreprise121.fr|PME
+122|Muller|Inès|944 boulevard Haussmann|Reims|Grand Est|France|Léa Robert|0933581963|muller.inès@entreprise122.fr|Administration
+123|Roux|Julien|314 rue du Commerce|Rennes|Bretagne|France|Maxime Girard|0819655576|roux.julien@entreprise123.fr|Administration
+124|Robert|Mathieu|481 avenue Foch|Nice|Provence-Alpes-Côte d''Azur|France|Inès Simon|0111722586|robert.mathieu@entreprise124.fr|Education
+125|Vincent|Lucie|384 rue du Commerce|Toulon|Provence-Alpes-Côte d''Azur|France|Inès David|0760082660|vincent.lucie@entreprise125.fr|TPE
+126|Morel|Camille|657 allée des Roses|Marseille|Provence-Alpes-Côte d''Azur|France|Clémence Mercier|0126707088|morel.camille@entreprise126.fr|TPE
+127|Boyer|François|167 avenue Foch|Dijon|Bourgogne-Franche-Comté|France|Nicolas Muller|0678398476|boyer.françois@entreprise127.fr|Santé
+128|Morel|Romain|706 boulevard Haussmann|Lyon|Auvergne-Rhône-Alpes|France|Romain Roux|0743123836|morel.romain@entreprise128.fr|Grand Compte
+129|Morel|Marie|944 boulevard Haussmann|Paris|Île-de-France|France|Mathieu Fontaine|0345075212|morel.marie@entreprise129.fr|Education
+130|Bertrand|Alice|151 boulevard Haussmann|Bordeaux|Nouvelle-Aquitaine|France|Chloé Bonnet|0311655896|bertrand.alice@entreprise130.fr|PME
+131|Muller|Pierre|660 impasse du Moulin|Toulon|Provence-Alpes-Côte d''Azur|France|Maxime Rousseau|0279596863|muller.pierre@entreprise131.fr|Grand Compte
+132|Mercier|Clémence|170 rue du Commerce|Lille|Hauts-de-France|France|Mathieu Garcia|0981565068|mercier.clémence@entreprise132.fr|Santé
+133|Mercier|Maxime|601 boulevard Haussmann|Dijon|Bourgogne-Franche-Comté|France|David Mercier|0224666517|mercier.maxime@entreprise133.fr|Santé
+134|Bonnet|David|817 boulevard Haussmann|Nice|Provence-Alpes-Côte d''Azur|France|Nicolas Vincent|0463414658|bonnet.david@entreprise134.fr|Santé
+135|Garcia|Jean|173 rue du Commerce|Paris|Île-de-France|France|Sophie Durand|0780459205|garcia.jean@entreprise135.fr|TPE
+136|Lambert|Camille|751 rue du Commerce|Nantes|Pays de la Loire|France|Emma Leroy|0328029744|lambert.camille@entreprise136.fr|Grand Compte
+137|Morel|Emma|515 rue de la Paix|Angers|Pays de la Loire|France|François Faure|0434915916|morel.emma@entreprise137.fr|Grand Compte
+138|Bernard|Lucie|188 avenue Foch|Lille|Hauts-de-France|France|Christophe Andre|0769153839|bernard.lucie@entreprise138.fr|Santé
+139|Boyer|Chloé|112 impasse du Moulin|Nantes|Pays de la Loire|France|Pierre Garcia|0260697866|boyer.chloé@entreprise139.fr|PME
+140|Michel|Pierre|351 rue de la Paix|Le Havre|Normandie|France|Julie Morel|0823530374|michel.pierre@entreprise140.fr|PME
+141|Bernard|Nicolas|770 rue de la Paix|Le Havre|Normandie|France|Manon Bernard|0238329115|bernard.nicolas@entreprise141.fr|Education
+142|Lefevre|Jean|385 allée des Roses|Saint-Etienne|Auvergne-Rhône-Alpes|France|David Michel|0873516094|lefevre.jean@entreprise142.fr|Administration
+143|Dupont|Clémence|345 boulevard Haussmann|Montpellier|Occitanie|France|Antoine Faure|0458480869|dupont.clémence@entreprise143.fr|Santé
+144|Roux|Maxime|626 rue de la Paix|Grenoble|Auvergne-Rhône-Alpes|France|Pauline Moreau|0210414016|roux.maxime@entreprise144.fr|TPE
+145|Andre|Mathieu|412 impasse du Moulin|Nice|Provence-Alpes-Côte d''Azur|France|Jean Dupont|0281219864|andre.mathieu@entreprise145.fr|Administration
+146|Rousseau|David|835 avenue Foch|Grenoble|Auvergne-Rhône-Alpes|France|Julien Dupont|0879110587|rousseau.david@entreprise146.fr|TPE
+147|Fontaine|Thomas|4 impasse du Moulin|Montpellier|Occitanie|France|Jean Lambert|0616141035|fontaine.thomas@entreprise147.fr|Santé
+148|Moreau|Alice|455 avenue Foch|Reims|Grand Est|France|Sarah Roux|0256752592|moreau.alice@entreprise148.fr|TPE
+149|Boyer|Inès|488 impasse du Moulin|Toulouse|Occitanie|France|Lucie Roux|0591493489|boyer.inès@entreprise149.fr|Grand Compte
+150|Rousseau|Lucas|891 allée des Roses|Le Havre|Normandie|France|Manon Andre|0914260842|rousseau.lucas@entreprise150.fr|Grand Compte

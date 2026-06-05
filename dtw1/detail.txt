@@ -1,0 +1,197 @@
+                                            Table "public.dim_temps"
+    Column     |         Type          | Collation | Nullable |                     Default                     
+---------------+-----------------------+-----------+----------+-------------------------------------------------
+ id_dim_temps  | integer               |           | not null | nextval('dim_temps_id_dim_temps_seq'::regclass)
+ date_complete | date                  |           | not null | 
+ annee         | smallint              |           | not null | 
+ trimestre     | smallint              |           | not null | 
+ mois          | smallint              |           | not null | 
+ lib_mois      | character varying(20) |           | not null | 
+ semaine       | smallint              |           | not null | 
+ jour          | smallint              |           | not null | 
+ lib_jour      | character varying(20) |           | not null | 
+ est_weekend   | boolean               |           | not null | false
+Indexes:
+    "dim_temps_pkey" PRIMARY KEY, btree (id_dim_temps)
+Referenced by:
+    TABLE "fait_analyse_representant" CONSTRAINT "fait_analyse_representant_id_dim_temps_fkey" FOREIGN KEY (id_dim_temps) REFERENCES dim_temps(id_dim_temps)
+
+ id_dim_temps | date_complete | annee | trimestre | mois | lib_mois | semaine | jour | lib_jour | est_weekend 
+--------------+---------------+-------+-----------+------+----------+---------+------+----------+-------------
+            1 | 2021-12-08    |  2021 |         4 |   12 | Décembre |      49 |    8 | Mercredi | f
+            2 | 2021-12-14    |  2021 |         4 |   12 | Décembre |      50 |   14 | Mardi    | f
+            3 | 2021-12-20    |  2021 |         4 |   12 | Décembre |      51 |   20 | Lundi    | f
+            4 | 2021-12-27    |  2021 |         4 |   12 | Décembre |      52 |   27 | Lundi    | f
+            5 | 2021-12-28    |  2021 |         4 |   12 | Décembre |      52 |   28 | Mardi    | f
+            6 | 2021-12-30    |  2021 |         4 |   12 | Décembre |      52 |   30 | Jeudi    | f
+            7 | 2021-12-31    |  2021 |         4 |   12 | Décembre |      52 |   31 | Vendredi | f
+            8 | 2022-01-01    |  2022 |         1 |    1 | Janvier  |      52 |    1 | Samedi   | t
+            9 | 2022-01-07    |  2022 |         1 |    1 | Janvier  |       1 |    7 | Vendredi | f
+           10 | 2022-01-09    |  2022 |         1 |    1 | Janvier  |       1 |    9 | Dimanche | t
+(10 rows)
+
+                                              Table "public.dim_vendeur"
+     Column     |          Type          | Collation | Nullable |                       Default                       
+----------------+------------------------+-----------+----------+-----------------------------------------------------
+ id_dim_vendeur | integer                |           | not null | nextval('dim_vendeur_id_dim_vendeur_seq'::regclass)
+ id_source      | integer                |           |          | 
+ nom            | character varying(50)  |           |          | 
+ prenom         | character varying(50)  |           |          | 
+ nom_complet    | character varying(100) |           |          | 
+ salaire        | numeric(10,2)          |           |          | 
+ date_embauche  | date                   |           |          | 
+ ville_base     | character varying(50)  |           |          | 
+ groupe         | character varying(30)  |           |          | 
+Indexes:
+    "dim_vendeur_pkey" PRIMARY KEY, btree (id_dim_vendeur)
+Referenced by:
+    TABLE "fait_analyse_representant" CONSTRAINT "fait_analyse_representant_id_dim_vendeur_fkey" FOREIGN KEY (id_dim_vendeur) REFERENCES dim_vendeur(id_dim_vendeur)
+
+ id_dim_vendeur | id_source |   nom    |  prenom   |    nom_complet     | salaire | date_embauche |    ville_base    | groupe 
+----------------+-----------+----------+-----------+--------------------+---------+---------------+------------------+--------
+              1 |         1 | LAMBERT  | Sophie    | Sophie LAMBERT     | 2282.54 | 2019-07-18    | Bordeaux         | Junior
+              2 |         2 | ROBERT   | Lucie     | Lucie ROBERT       | 2538.23 | 2022-02-25    | Clermont-Ferrand | Junior
+              3 |         3 | BONNET   | Clã©Mence | Clã©Mence BONNET   | 2304.88 | 2018-07-11    | Strasbourg       | Junior
+              4 |         4 | FOURNIER | Chloã©    | Chloã© FOURNIER    | 2287.57 | 2019-02-12    | Clermont-Ferrand | Senior
+              5 |         5 | LAURENT  | Julien    | Julien LAURENT     | 4144.58 | 2022-07-16    | Paris            | Junior
+              6 |         6 | ROUSSEAU | Clã©Mence | Clã©Mence ROUSSEAU | 3322.83 | 2018-11-15    | Strasbourg       | Senior
+              7 |         7 | PETIT    | Pierre    | Pierre PETIT       | 3453.76 | 2020-01-06    | Grenoble         | Expert
+              8 |         8 | MICHEL   | Manon     | Manon MICHEL       | 2343.39 | 2020-07-29    | Clermont-Ferrand | Junior
+              9 |         9 | BOYER    | Maxime    | Maxime BOYER       | 2460.04 | 2019-08-24    | Reims            | Senior
+             10 |        10 | BONNET   | Thomas    | Thomas BONNET      | 4525.09 | 2018-04-04    | Bordeaux         | Senior
+(10 rows)
+
+                                              Table "public.dim_vendeur"
+     Column     |          Type          | Collation | Nullable |                       Default                       
+----------------+------------------------+-----------+----------+-----------------------------------------------------
+ id_dim_vendeur | integer                |           | not null | nextval('dim_vendeur_id_dim_vendeur_seq'::regclass)
+ id_source      | integer                |           |          | 
+ nom            | character varying(50)  |           |          | 
+ prenom         | character varying(50)  |           |          | 
+ nom_complet    | character varying(100) |           |          | 
+ salaire        | numeric(10,2)          |           |          | 
+ date_embauche  | date                   |           |          | 
+ ville_base     | character varying(50)  |           |          | 
+ groupe         | character varying(30)  |           |          | 
+Indexes:
+    "dim_vendeur_pkey" PRIMARY KEY, btree (id_dim_vendeur)
+Referenced by:
+    TABLE "fait_analyse_representant" CONSTRAINT "fait_analyse_representant_id_dim_vendeur_fkey" FOREIGN KEY (id_dim_vendeur) REFERENCES dim_vendeur(id_dim_vendeur)
+
+ id_dim_client | id_source |   nom    | prenom  |         adresse         |      ville       |       province        |  pays  | personne_ressource | telephone  |             email              |   segment    
+---------------+-----------+----------+---------+-------------------------+------------------+-----------------------+--------+--------------------+------------+--------------------------------+--------------
+             1 |         1 | RICHARD  | Camille | 148 avenue Foch         | Lille            | Hauts-de-France       | France | David Durand       | 0351177222 | richard.camille@entreprise1.fr | TPE
+             2 |         2 | FONTAINE | Emma    | 61 allÃ©e des Roses     | Montpellier      | Occitanie             | France | Emma Martin        | 0150000149 | fontaine.emma@entreprise2.fr   | TPE
+             3 |         3 | PETIT    | Antoine | 146 rue du Commerce     | Montpellier      | Occitanie             | France | Nicolas Roux       | 0216962963 | petit.antoine@entreprise3.fr   | Grand Compte
+             4 |         4 | LAURENT  | David   | 612 allÃ©e des Roses    | Bordeaux         | Nouvelle-Aquitaine    | France | Sarah Fournier     | 0961680358 | laurent.david@entreprise4.fr   | PME
+             5 |         5 | MICHEL   | Marie   | 326 rue du Commerce     | Clermont-Ferrand | Auvergne-RhÃ´ne-Alpes | France | ClÃ©mence Durand   | 0813879756 | michel.marie@entreprise5.fr    | TPE
+             6 |         6 | LAMBERT  | Julie   | 936 rue de la Paix      | Lille            | Hauts-de-France       | France | LÃ©a Bonnet        | 0243059986 | lambert.julie@entreprise6.fr   | Education
+             7 |         7 | LAMBERT  | Manon   | 129 boulevard Haussmann | Le Havre         | Normandie             | France | ClÃ©mence Bertrand | 0295335496 | lambert.manon@entreprise7.fr   | Education
+             8 |         8 | SIMON    | Manon   | 992 avenue Foch         | Grenoble         | Auvergne-RhÃ´ne-Alpes | France | LÃ©a Richard       | 0482146810 | simon.manon@entreprise8.fr     | TPE
+             9 |         9 | BOYER    | Lã©A    | 463 rue de la Paix      | Paris            | ÃŽle-de-France        | France | Olivier Bertrand   | 0597652074 | boyer.lã©a@entreprise9.fr      | Grand Compte
+            10 |        10 | MARTIN   | Marie   | 956 rue du Commerce     | Lille            | Hauts-de-France       | France | ChloÃ© Michel      | 0757166514 | martin.marie@entreprise10.fr   | SantÃ©
+(10 rows)
+
+                        Table "public.dim_produit"
+     Column     |          Type          | Collation | Nullable | Default 
+----------------+------------------------+-----------+----------+---------
+ id_dim_produit | integer                |           | not null | 
+ nom            | character varying(100) |           |          | 
+ categorie      | character varying(50)  |           |          | 
+ groupe         | character varying(30)  |           |          | 
+ prix_unitaire  | numeric(10,2)          |           |          | 
+ stock          | integer                |           |          | 
+ fournisseur    | character varying(60)  |           |          | 
+ date_lancement | date                   |           |          | 
+ actif          | boolean                |           |          | true
+Indexes:
+    "dim_produit_pkey" PRIMARY KEY, btree (id_dim_produit)
+Referenced by:
+    TABLE "fait_analyse_representant" CONSTRAINT "fait_analyse_representant_id_dim_produit_fkey" FOREIGN KEY (id_dim_produit) REFERENCES dim_produit(id_dim_produit)
+
+ id_dim_produit |             nom             |    categorie     |     groupe      | prix_unitaire | stock |    fournisseur     | date_lancement | actif 
+----------------+-----------------------------+------------------+-----------------+---------------+-------+--------------------+----------------+-------
+              1 | HP LaserJet Pro M404        | Laser Monochrome | Milieu de gamme |        299.99 |   264 | Canon France       | 2020-09-09     | f
+              2 | HP Color LaserJet M454      | Laser Couleur    | Milieu de gamme |        449.99 |    96 | Zebra Technologies | 2019-08-25     | f
+              3 | Canon PIXMA G3560           | Jet d'encre      | Entrée de gamme |        179.99 |   349 | Brother France     | 2020-05-13     | t
+              4 | Epson EcoTank ET-4850       | Multifonction    | Milieu de gamme |        389.99 |    97 | Canon France       | 2019-08-05     | f
+              5 | Brother MFC-L8900CDW        | Multifonction    | Professionnel   |        699.99 |   376 | HP Inc.            | 2019-11-25     | t
+              6 | Xerox VersaLink C405        | Laser Couleur    | Professionnel   |        849.99 |   472 | Ricoh France       | 2020-07-28     | t
+              7 | HP DesignJet T230           | Grand Format     | Professionnel   |       1299.99 |   378 | Xerox SAS          | 2022-09-25     | f
+              8 | Zebra ZT410                 | Thermique        | Professionnel   |       1899.99 |   497 | Canon France       | 2022-09-24     | t
+              9 | Canon imageCLASS MF445dw    | Laser Monochrome | Milieu de gamme |        379.99 |   482 | Zebra Technologies | 2019-07-05     | t
+             10 | Epson WorkForce Pro WF-4830 | Multifonction    | Milieu de gamme |        319.99 |   456 | Brother France     | 2022-03-25     | t
+(10 rows)
+
+                                         Table "public.dim_geo"
+   Column   |         Type          | Collation | Nullable |                   Default                   
+------------+-----------------------+-----------+----------+---------------------------------------------
+ id_dim_geo | integer               |           | not null | nextval('dim_geo_id_dim_geo_seq'::regclass)
+ ville      | character varying(50) |           |          | 
+ province   | character varying(60) |           |          | 
+ pays       | character varying(30) |           |          | 
+Indexes:
+    "dim_geo_pkey" PRIMARY KEY, btree (id_dim_geo)
+Referenced by:
+    TABLE "fait_analyse_representant" CONSTRAINT "fait_analyse_representant_id_dim_geo_fkey" FOREIGN KEY (id_dim_geo) REFERENCES dim_geo(id_dim_geo)
+
+ id_dim_geo |      ville       |          province          |  pays  
+------------+------------------+----------------------------+--------
+          1 | Angers           | Pays de la Loire           | France
+          2 | Bordeaux         | Nouvelle-Aquitaine         | France
+          3 | Clermont-Ferrand | Auvergne-Rhône-Alpes       | France
+          4 | Dijon            | Bourgogne-Franche-Comté    | France
+          5 | Grenoble         | Auvergne-Rhône-Alpes       | France
+          6 | Le Havre         | Normandie                  | France
+          7 | Lille            | Hauts-de-France            | France
+          8 | Lyon             | Auvergne-Rhône-Alpes       | France
+          9 | Marseille        | Provence-Alpes-Côte d'Azur | France
+         10 | Montpellier      | Occitanie                  | France
+(10 rows)
+
+                                       Table "public.fait_analyse_representant"
+      Column       |     Type      | Collation | Nullable |                          Default                           
+-------------------+---------------+-----------+----------+------------------------------------------------------------
+ id_fait           | integer       |           | not null | nextval('fait_analyse_representant_id_fait_seq'::regclass)
+ id_dim_temps      | integer       |           | not null | 
+ id_dim_vendeur    | integer       |           | not null | 
+ id_dim_client     | integer       |           | not null | 
+ id_dim_geo        | integer       |           | not null | 
+ id_dim_produit    | integer       |           | not null | 
+ quantite_vendue   | integer       |           |          | 
+ montant_vente     | numeric(12,2) |           |          | 
+ montant_precom    | numeric(12,2) |           |          | 
+ km_parcourus      | integer       |           |          | 
+ litres_essence    | numeric(8,2)  |           |          | 
+ frais_voyage      | numeric(8,2)  |           |          | 
+ nb_visites        | integer       |           |          | 
+ marge_estimee     | numeric(12,2) |           |          | 
+ rentabilite_nette | numeric(12,2) |           |          | 
+Indexes:
+    "fait_analyse_representant_pkey" PRIMARY KEY, btree (id_fait)
+    "idx_fait_client" btree (id_dim_client)
+    "idx_fait_geo" btree (id_dim_geo)
+    "idx_fait_produit" btree (id_dim_produit)
+    "idx_fait_temps" btree (id_dim_temps)
+    "idx_fait_vendeur" btree (id_dim_vendeur)
+Foreign-key constraints:
+    "fait_analyse_representant_id_dim_client_fkey" FOREIGN KEY (id_dim_client) REFERENCES dim_client(id_dim_client)
+    "fait_analyse_representant_id_dim_geo_fkey" FOREIGN KEY (id_dim_geo) REFERENCES dim_geo(id_dim_geo)
+    "fait_analyse_representant_id_dim_produit_fkey" FOREIGN KEY (id_dim_produit) REFERENCES dim_produit(id_dim_produit)
+    "fait_analyse_representant_id_dim_temps_fkey" FOREIGN KEY (id_dim_temps) REFERENCES dim_temps(id_dim_temps)
+    "fait_analyse_representant_id_dim_vendeur_fkey" FOREIGN KEY (id_dim_vendeur) REFERENCES dim_vendeur(id_dim_vendeur)
+
+ id_fait | id_dim_temps | id_dim_vendeur | id_dim_client | id_dim_geo | id_dim_produit | quantite_vendue | montant_vente | montant_precom | km_parcourus | litres_essence | frais_voyage | nb_visites | marge_estimee | rentabilite_nette 
+---------+--------------+----------------+---------------+------------+----------------+-----------------+---------------+----------------+--------------+----------------+--------------+------------+---------------+-------------------
+       1 |          589 |             16 |             5 |          3 |              2 |              10 |       3986.54 |        3333.27 |          600 |          70.41 |       158.60 |          2 |       1286.60 |           1128.00
+       2 |          778 |             25 |            33 |         17 |              3 |               6 |        960.89 |         894.46 |          453 |          53.55 |       242.74 |          4 |        312.93 |             70.19
+       3 |          844 |             13 |            96 |          8 |              8 |               4 |       6742.58 |        5458.82 |           41 |           4.08 |        34.46 |          2 |       2182.60 |           2148.14
+       4 |           53 |              8 |            18 |          2 |             15 |              11 |       7573.44 |        6329.13 |          705 |          66.46 |       268.58 |          8 |       2293.51 |           2024.93
+       5 |          661 |             26 |           122 |          8 |             13 |               4 |        691.60 |         598.00 |          453 |          41.02 |       152.71 |          2 |        211.62 |             58.91
+       6 |          176 |             13 |            87 |          1 |             13 |               7 |       1229.88 |        1066.67 |          452 |          35.79 |       214.56 |          2 |        389.92 |            175.36
+       7 |           81 |             26 |           141 |         20 |              2 |              18 |       7900.60 |        7468.83 |          791 |          88.94 |       203.24 |          4 |       3040.71 |           2837.47
+       8 |          617 |             29 |            16 |         12 |              3 |              13 |       2081.97 |        1910.44 |          485 |          40.87 |       227.98 |          8 |        678.05 |            450.07
+       9 |           94 |              7 |            76 |          8 |              4 |              18 |       6031.03 |        5108.53 |           71 |           7.04 |       120.12 |          3 |       1819.14 |           1699.02
+      10 |          306 |             17 |            21 |         16 |             14 |              20 |       8601.77 |        7993.39 |          433 |          32.91 |       171.59 |          1 |       2601.89 |           2430.30
+(10 rows)
+
